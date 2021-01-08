@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(d.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: contain;
+}
+img {
+  max-width: 100%;
+  min-width: 50%;
+}
+iframe {
+  position: absolute;
+  bottom: 8%;
+  right: -67%;
+  width: 150.5%;
+  height: 22vw;
+}
+.container {
+  bottom: -1%;
+  right: 24%;
+  z-index: 999;
+  position: relative;
+  width: 56vw;
+  height: 24vw;
+  justify-content: center;
+  display: flex;
+}
